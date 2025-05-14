@@ -1,0 +1,99 @@
+/* Estilos para la página web */
+
+body {
+    background-color: #f2f2f2; /* le pone fondo a todo el cuerpo de html*/
+    font-size: 16px; /* le da tamaño al fondo*/
+}
+
+/* header */
+h1 {
+    font-size: 36px;/* le da tamaño al texto h1*/
+    color: #dee2e6;/* le da color al texto*/
+}
+
+.encabezado {
+    background-color: #212529;/* le da color al fondo del encabezado*/
+    text-align: center;/*pone todo en el centro*/
+    text-transform: uppercase; /*transforma el texto del encabezado*/
+    font-weight: bold;/*le da grosor a la letra*/
+    font-size: 45px;/*le da  tamaño*/
+}
+
+nav {
+    text-align: center;/*pone en el centro a todo lo mq este en nav*/
+}
+
+nav ul li {
+    background-color: #ced4da;/*le da color al fondo*/
+    display: inline-block;/*cambia el comportamiento*/
+    padding: 10px;
+    /* agrega un margen interior */
+}
+
+nav ul li:hover {
+    font-weight: 900;/*añade mas tamaño*/
+    color: #212529;/*le da color a todo lo q este en este comando*/
+}
+
+/* main */
+main {
+    background-color: #f8f9fa;/*color a todo el main*/
+
+}
+
+section {
+    background-color: #dee2e6;/*color al todo el section*/
+    padding: 10px; /* agrega un margen interior */
+}
+
+.parrafo {
+    text-align: justify;/*le da posicion a la letra*/
+    text-transform: capitalize;/*transforma el texto del parrafo*/
+    font-size: 24px;/* le da tamaño al texto h1*/
+}
+
+#fondo {
+    background-color: #f8f9fa;
+    /* modificar el color a elección */
+}
+
+li a {
+    color: #343a40;/* le da color al texto*/
+    text-decoration: none;/*le da decoracion*/
+}
+
+h2 {
+    font-size: 36px;/* le da tamaño al texto h1*/
+    color: #6c757d;/* le da color al texto*/
+}
+
+h3 {
+    font-size: 36px;/* le da tamaño al texto h1*/
+    color: #6c757d;/* le da color al texto*/
+}
+
+p {
+    font-size: 25px;/* le da tamaño al texto h1*/
+    color: #212529;/* le da color al texto*/
+}
+
+/* footer */
+
+footer {
+
+    background-color: #212529;/*color a todo el footer*/
+    text-align: center;/*le da posicion a la letra*/
+    text-transform: uppercase;/*transforma el texto del footer*/
+    font-weight: bold;/*le da grosor a la letra*/
+    font-size: 38px;/* le da tamaño al texto h1*/
+
+    div p {
+        font-size: 25px;/* le da tamaño al texto h1*/
+        color: #dee2e6;/* le da color al texto*/
+    }
+
+    li {
+        display: inline-block;/*cambia el comportamiento*/
+        padding: 10px; /* agrega un margen interior */
+    }
+}
